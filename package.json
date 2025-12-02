@@ -1,0 +1,34 @@
+{
+	"name": "kaspeak-vault-decoder",
+	"version": "1.0.0",
+	"description": "A simple CLI script for decrypting an exported Kaspeak.net backup.",
+	"license": "MIT",
+	"author": "Kaspeak <kaspeak@proton.me>",
+	"type": "commonjs",
+	"main": "decode-vault.js",
+	"scripts": {
+		"decode": "node decode-vault.js",
+		"start": "node decode-vault.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"kas",
+		"kaspa",
+		"kaspeak",
+		"kaspeak-sdk",
+		"messaging",
+		"web3",
+		"messenger",
+		"social",
+		"encryption",
+		"wasm",
+		"protocol",
+		"transport",
+		"p2p",
+		"networking",
+		"decentralization"
+	],
+	"dependencies": {
+		"kaspeak-sdk": "^1.0.0"
+	}
+}
